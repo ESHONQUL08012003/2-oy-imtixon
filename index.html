@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
   <title>Document</title>
 </head>
 
@@ -34,9 +35,12 @@
           </ul>
         </nav>
 
-        <div>
-          <button class="header__btn" href="#">Schedule a Demo</button>
-        </div>
+        <button class="header__btn" href="#">Schedule a Demo</button>
+
+        <label for="main">
+          <img src="./imgs/gamburger.svg" alt="gamburger" width="28" height="17">
+        </label>
+        <input type="checkbox">
       </div>
     </div>
   </header>
@@ -45,6 +49,7 @@
   <!------------- Main  ----------------->
   <main>
     <section>
+      <!-- <div class="hero__bg-img"></div> -->
       <div class="container">
         <div class="hero">
           <div class="hero__description">
@@ -54,7 +59,7 @@
 
             <form action="https://echo.htmlacademy.ru/courses" method="post">
               <input type="email" placeholder="Enter email address">
-              <button type="submit" class="header__btn">Schedule a Demo</button>
+              <button type="submit" class="hero__btn">Schedule a Demo</button>
             </form>
 
             <p class="hero__paragrft">
@@ -64,10 +69,73 @@
           </div>
 
           <div class="hero__img">
-            <img src="./imgs/Hero_img.png" alt="hero__img" width="563" height="600">
+            <img src="./imgs/Hero_img.png" alt="hero__img" width="263" height="500">
           </div>
-          <div class="header__bg-img">
-            
+        </div>
+    </section>
+
+    <section class="contact__section">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__description">
+            <h2 class="contact__text">Who we work with</h2>
+            <p class="contact__paragrft">
+              Today, millions of people around the world have successfully connected their accounts to apps they love
+              using our API.
+              We provide developers with the tools they need to create easy and accessible experiences for their users.
+            </p>
+
+            <a class="contact__btn">About Us</a>
+          </div>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <img src="./imgs/tesla_logo.svg" alt="tesla_logo" width="129" height="17">
+            </li>
+
+
+            <li class="contact__item">
+              <img src="./imgs/micrasoft_img.svg" alt="micrasoft_img" width="145" height="31">
+            </li>
+
+            <li class="contact__item">
+              <img src="./imgs/hp_logo.svg" alt="hp_logo" width="140" height="27">
+            </li>
+
+            <li class="contact__item">
+              <img src="./imgs/oresle_logo.svg" alt="overlas_logo" width="131" height="17">
+            </li>
+
+            <li class="contact__item">
+              <img src="./imgs/google logo.svg" alt="gogo_logo" width="96" height="33">
+            </li>
+
+            <li class="contact__item">
+              <img src="./imgs/nvd_logo.svg" alt="nev_logo" width="137" height="26">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="implement">
+          <div class="implement__box">
+            <img src="./imgs/code__img.png" width="445" height="284" alt="code__img">
+          </div>
+
+          <div>
+            <h2 class="implement__text">
+              Easy to implement
+            </h2>
+
+            <p class="implement__paragrft">
+              Our API comes with just a few lines of code.
+              You’ll be up and running in no time. We built our
+              documentation page to
+              handle payments functionality with ease.
+            </p>
           </div>
         </div>
       </div>
@@ -75,24 +143,124 @@
 
     <section>
       <div class="container">
+        <div class="simple">
+          <div>
+            <h2 class="simple__text">
+              Simple UI & UX
+            </h2>
+
+            <p class="simple__paragrft">
+              Our pre-built form is easy to integrate
+              in your app or website’s
+              checkout flow and designed to optimize
+              conversion.
+            </p>
+          </div>
+
+          <div class="simple__img">
+            <img src="./imgs/simple_telimg2.png" alt="" width="263" height="500">
+            <img src="./imgs/simple_telimg1.png" width="263" height="500">
+          </div>
+
+        </div>
       </div>
     </section>
 
     <section>
       <div class="container">
-      </div>
-    </section>
+        <div class="prising">
 
-    <section>
-      <div class="container">
+          <ul class="prising__list">
+            <li class="prising__item">
+              <img src="./imgs/contact_img1.png" alt="contact__item" width="106" height="106">
+             <div>
+              <h3 class="prising__list-text">Personal Finances</h3>
+              <p class="prising__list-paragrft">
+                Consolidate financial data from multiple
+                sources and categorize transactions up to 2 years of history.
+                Analyze reports
+                to reconcile activities in your account.
+              </p>
+             </div>
+            </li>
+
+            <li class="prising__item">
+              <img src="./imgs/contact_img2.png" alt="contact__item" width="106" height="106">
+              <h3 class="prising__list-text">Banking Coverage</h3>
+              <p class="prising__list-paragrft">
+                With our platform, you can speed up account onboarding
+                and support ongoing payments for checking,
+                savings, credit card,
+                and brokerage accounts.
+              </p>
+            </li>
+
+            <li class="prising__item">
+              <img src="./imgs/contact_img3.png" alt="contact__item" width="106" height="106">
+              <h3 class="prising__list-text">Personal Finances</h3>
+              <p class="prising__list-paragrft">
+                It’s easier to set up secure bank payments with us
+                through a flow designed with the user experience in mind. Customers
+                could instantly authenticate their account.
+              </p>
+            </li>
+          </ul>
+
+          <div class="prising__form">
+            <h2 class="prising__text">
+              Ready to start?
+            </h2>
+
+            <form action="https://echo.htmlacademy.ru/courses" method="post">
+              <input type="email" placeholder="Enter email address">
+              <button type="submit" class="hero__btn">Schedule a Demo</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   </main>
   <!------------- Main  ----------------->
 
   <!------------- Footer  --------------->
-  <footer>
+  <footer class="footer">
     <div class="container">
+      <div class="footer__info">
+        <div class="footer__logo">
+
+          <a href="./index.html">
+            <img src="./imgs/footer_logo.svg" alt="footer_logo" width="135" height="38">
+          </a>
+
+          <ul class="footer__list">
+            <li>
+              <a class="footer__item" href="">Pricing</a>
+            </li>
+
+            <li>
+              <a class="footer__item" href="">About</a>
+            </li>
+
+            <li>
+              <a class="footer__item" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__netvorks">
+          <a class="footer__link" href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a class="footer__link" href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a class="footer__link" href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
   <!------------- Footer  --------------->

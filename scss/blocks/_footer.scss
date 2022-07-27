@@ -1,0 +1,41 @@
+.footer {
+  background: #1B262F;
+
+  &__info {
+    @extend %d-flex;
+    padding: 31px 0;
+  }
+
+  .footer__logo {
+    @extend %d-flex;
+    gap: 40px;
+  }
+
+  &__list {
+    @extend %d-flex;
+    @extend %-list;
+    gap: 40px ;
+  }
+
+  &__item {
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    opacity: 0.7;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px
+  }
+
+  &__netvorks{
+    display: flex;
+    gap: 24px;
+  }
+}
