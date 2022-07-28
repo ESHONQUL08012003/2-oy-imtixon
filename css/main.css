@@ -545,11 +545,6 @@ img {
     display: none;
   }
 }
-@media only screen and (max-width: 540) {
-  .container {
-    max-width: 100%;
-  }
-}
 .hero {
   margin-bottom: 100px;
 }
@@ -900,6 +895,17 @@ input {
     padding: 17px 115px;
     right: 17px;
     font-size: 12px;
+  }
+  .hero__bg-img {
+    left: 44px;
+    top: -124px;
+    width: 300px;
+  }
+  .hero__bg-img {
+    transform: rotate(-45deg);
+    left: 57px;
+    top: -129px;
+    width: 307px;
   }
   .hero input {
     width: 327px;

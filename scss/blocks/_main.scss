@@ -427,6 +427,19 @@ input {
       font-size: 12px;
     }
 
+        &__bg-img {
+          left: 44px;
+          top: -124px;
+          width: 300px;
+        }
+    
+        &__bg-img {
+          transform: rotate(-45deg);
+          left: 57px;
+          top: -129px;
+          width: 307px;
+        }
+
     input {
       width: 327px;
       margin-bottom: 20px;
