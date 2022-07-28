@@ -397,6 +397,10 @@ img {
 }
 .header .nav__item:hover {
   color: red;
+  cursor: pointer;
+}
+.header .hamburger-menu {
+  display: none;
 }
 .header__btn {
   padding: 16px 24px;
@@ -409,12 +413,10 @@ img {
 }
 .header__btn:hover {
   background: #DA6D97;
+  color: red;
 }
 .header__btn:active {
   opacity: 0.5;
-}
-.header .hamburger-menu {
-  display: none;
 }
 
 .menu__btn {
@@ -717,6 +719,13 @@ input {
 .prising__list {
   gap: 30px;
   text-align: center;
+}
+.prising__item {
+  display: block;
+  transition: all 0.5s linear;
+}
+.prising__item:hover {
+  transform: translate(-20px, -20px);
 }
 .prising__list-text {
   font-family: "Public Sans";
