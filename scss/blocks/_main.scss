@@ -425,13 +425,14 @@ input {
       padding: 17px 115px;
       right: 17px;
       font-size: 12px;
-    }    
-        &__bg-img {
-          transform: rotate(-45deg);
-          left: 57px;
-          top: -129px;
-          width: 275px;
-        }
+    }
+
+    &__bg-img {
+      transform: rotate(-45deg);
+      left: 57px;
+      top: -129px;
+      width: 205px;
+    }
 
     input {
       width: 327px;

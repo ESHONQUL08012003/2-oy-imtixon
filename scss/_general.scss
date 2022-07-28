@@ -19,14 +19,14 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #f5f6f7;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
-  object-fit: cover;
+	object-fit: cover;
 }
 
 .main {

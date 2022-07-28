@@ -340,7 +340,6 @@ body {
   margin: 0;
   padding: 0;
   background: #f5f6f7;
-  overflow-x: hidden;
 }
 
 img {
@@ -901,7 +900,7 @@ input {
     transform: rotate(-45deg);
     left: 57px;
     top: -129px;
-    width: 275px;
+    width: 205px;
   }
   .hero input {
     width: 327px;
