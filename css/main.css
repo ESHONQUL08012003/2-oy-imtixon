@@ -445,7 +445,7 @@ img {
 }
 
 .menu__btn {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 105px;
   display: flex;
@@ -897,15 +897,10 @@ input {
     font-size: 12px;
   }
   .hero__bg-img {
-    left: 44px;
-    top: -124px;
-    width: 300px;
-  }
-  .hero__bg-img {
     transform: rotate(-45deg);
     left: 57px;
     top: -129px;
-    width: 307px;
+    width: 275px;
   }
   .hero input {
     width: 327px;
